@@ -1,1 +1,45 @@
 /* Trabalhando com formulários */
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+fieldset{
+    margin: 1em 0;
+    padding: 1em; /* Criando espaçamento entre elementos */
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+legend{
+    font-weight: bold; /* Colocar letras em Negrito */
+
+}
+
+label{
+    display: block; /* Alterando o display para block */
+    cursor: pointer; /* Ao clicar em cima marca a caixa de texto */
+}
+
+/*
+input[type="text"] { /* Novo seletor = [] => seletor de atributo *//*
+    width: 20em;
+}
+*/
+
+input{
+    width: 20em;
+}
+
+textarea{
+    width: 20em;
+    height: 10em;
+}
+
+input.radio, input.checkbox, input.submit{
+    width: auto;
+}
+
+.radio{
+    margin-right: 1em;
+}
+
